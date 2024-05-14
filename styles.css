@@ -1,0 +1,215 @@
+*{
+  margin: 0px;
+  padding: 0px;
+} 
+.photo{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(62, 62, 61);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+
+}
+
+.photo figure{
+  width: 150px;
+  height: 300px;
+  background-color: rgb(40, 38, 38);
+  margin-left: 10px;
+}
+
+figure img{
+  width: 100%;
+  height: 200px;
+}
+
+figcaption{
+  margin-top: 20px;
+  color: rgb(12, 164, 35);
+  text-align: center;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+}
+
+li > a{
+  color: rgb(89, 255, 0);
+  margin-left: 20px;
+}
+
+.mypage{
+  padding-bottom: 100px;
+  background-image: url("./img/sao.jpg");
+  color: rgb(70, 101, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+}
+h1{
+  margin-left: 20px;
+  font-size: 30pt;
+}
+span{
+  color: rgb(8, 31, 92);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-image: url("img/zero\ two.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98pt;
+}
+.foot{
+  margin-left: 20px;
+  margin-top: 60px;
+  height: 30px;
+  color: rgb(184, 146, 207);
+  }
+  a.email:link, a.insta:link, a.email:visited, a.insta:visited{
+    color:rgb(184, 146, 207);
+  }
+  a{
+    text-decoration: none;
+  }
+
+  @media(max-width:1000px){
+    nav ul{
+      padding-bottom: 40px;
+      padding-top: 40pt;
+    }
+    li a{
+      margin-left: 20px;
+      font-size: 30pt;
+    }
+    h1{
+      font-size: 65pt
+    }
+
+    .mypage{
+      font-size: 40pt;
+      padding-bottom: 250pt;
+    }
+    .foot{
+      font-size: 30pt;
+      margin-top: 28pt;
+    }
+    footer{
+      padding-bottom:49px;
+    }
+    .photo figure{
+      width: 400px;
+      height: 600px;
+      margin: 30px;
+    }
+    figure img{
+      height: 400px;
+    }
+    figcaption{
+      font-size: 30pt;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+/* 
+<<<<<<<<<<<<<<< return back the squeres >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  } 
+  .photo{
+    border: solid red 3px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(62, 62, 61);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+  
+  }
+  
+  .photo figure{
+    border: solid blue 3px;
+    width: 150px;
+    height: 300px;
+    background-color: rgb(40, 38, 38);
+    margin-left: 10px;
+  }
+  
+  figure img{
+    border: solid green 3px;
+    width: 100%;
+    height: 200px;
+  }
+  
+  figcaption{
+    border: solid yellow 3px;
+    margin-top: 20px;
+    color: rgb(12, 164, 35);
+  }
+  
+  nav ul{
+    display: flex;
+    border: black solid 3px;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+  }
+  
+  li > a{
+    border: rgb(223, 17, 17) solid 3px;
+    color: rgb(89, 255, 0);
+    margin-left: 20px;
+  }
+  
+  .mypage{
+    border: blue solid 3px;
+    padding-bottom: 100px;
+    background-image: url("./img/sao.jpg");
+    color: rgb(70, 101, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+  }
+  span{
+    color: rgb(8, 31, 92);
+  }
+  
+  footer{
+    border: rgb(0, 151, 63) solid 3px;
+    display: flex;
+    justify-content: center;
+    background-image: url("img/zero\ two.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+  }
+  .foot{
+    border: red solid 3px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    height: 30px;
+    color: rgb(184, 146, 207);
+    }
+    a.email:link, a.insta:link, a.email:visited, a.insta:visited{
+      color:rgb(184, 146, 207);
+    }
+    a{
+      text-decoration: none;
+    } */
